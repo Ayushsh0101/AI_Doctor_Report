@@ -1,4 +1,4 @@
-<img width="1353" height="686" alt="image" src="https://github.com/user-attachments/assets/8c38a9da-be45-4a4f-9bc2-0b3078c5fb10" />**AI Doctor – Voice & Vision Assistant**
+**AI Doctor – Voice & Vision Assistant**
 An AI-powered healthcare assistant that allows patients to interact with doctors using voice and image inputs.
 It integrates speech recognition, image analysis, and an advanced language model to provide medical insights. The system also replies in a doctor’s voice for a natural conversation flow.
 
