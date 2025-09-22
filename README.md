@@ -1,36 +1,59 @@
 **AI Doctor – Voice & Vision Assistant**
+
 An AI-powered healthcare assistant that allows patients to interact with doctors using voice and image inputs.
 It integrates speech recognition, image analysis, and an advanced language model to provide medical insights. The system also replies in a doctor’s voice for a natural conversation flow.
 
 **Features**
-1 User Authentication – Secure login & registration with hashed passwords
+
+1 User Authentication – Secure login & registration with hashed passwords 
+
 2 Speech-to-Text – Converts patient queries into text
+
 3 Image Analysis – Upload medical images (X-rays, skin images, etc.) for AI-based insight
-4 AI Doctor Response – LLM generates professional advice
+
+4 AI Doctor Response – LLM generates professional 
+
 5 Doctor’s Voice Reply – Text-to-speech output for natural conversation
+
 6 Modern UI – Built with Gradio (Login + Doctor Panel)
 
 **Tech Stack**
+
 1 Backend: Python, Gradio
+
 2 AI Models: Whisper (speech-to-text), LLaMA/Groq (LLM), ElevenLabs TTS
+
 3 Database: MySQL (user authentications
+
 4 Others: dotenv, bcrypt
 
 **Project Structure**
+
 ai-doctor/
 │── gradio_app.py          # Main Gradio app
+
 │── authentication.py      # User auth functions
+
 │── brain_of_the_doctor.py # Image analysis & LLM queries
+
 │── voice_of_the_patient.py# Speech recognition
+
 │── voice_of_the_doctor.py # Text-to-speech
+
 │── config.py              # DB configs
+
 │── .env                   # API keys & secrets
 
 **User Flow**
+
 1 Register/Login – Secure authentication with database.
+
 2 Doctor Panel – Input via text, voice, or medical image.
+
 3 AI Analysis – Speech-to-text, image analysis, and LLM-based medical response.
+
 4 Doctor Response – Text + voice output.
+
 5 Logout – Ends the session and returns to login page.
 
 **Screenshots :**
